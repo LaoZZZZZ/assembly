@@ -1,0 +1,95 @@
+----------------------------------------
+Begin PBS Prologue Sat Apr 11 11:46:23 EDT 2015 1428767183
+Job ID:		17879.xcat
+Username:	swu
+Group:		swu
+Nodes:		n14 n15 n31 n32
+End PBS Prologue Sat Apr 11 11:46:23 EDT 2015 1428767183
+----------------------------------------
+INFO: job started on Sat Apr 11 11:46:23 EDT 2015
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+[mpiexec@n32] HYDU_sock_write (utils/sock/sock.c:286): write error (Bad file descriptor)
+[mpiexec@n32] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@n32] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@n32] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@n32] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@n32] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
+----------------------------------------
+Begin PBS Epilogue Sat Apr 11 11:49:02 EDT 2015 1428767342
+Job ID:		17879.xcat
+Username:	swu
+Group:		swu
+Job Name:	assembly_bench
+Session:	25978
+Limits:		ncpus=1,neednodes=4:ppn=16,nodes=4:ppn=16,walltime=01:00:00
+Resources:	cput=00:36:19,mem=1320384kb,vmem=4162148kb,walltime=00:02:34
+Queue:		short
+Account:		
+Nodes:	n14 n15 n31 n32
+Killing leftovers...
+
+End PBS Epilogue Sat Apr 11 11:49:02 EDT 2015 1428767342
+----------------------------------------

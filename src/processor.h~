@@ -1,0 +1,45 @@
+#ifndef PROCESSOR_H
+#define PROCESSOR_H
+#include "lockfreequeue.h"
+#include "rawmessage.h"
+#include "messagesender.h"
+#include "messagereceiver.h"
+#include "mtpithread.h"
+#include "parameter.h"
+class Processor : public mtpiThread
+{
+public:
+    Processor(Parameter* params);
+    bool addMessage(rawMessage* m){
+        int tries = 0;
+        bool succ = false;
+        while(tries < Processor::_maxTry&& !succ){
+            succ = this->_outque.tryAdd(m);
+            tries ++;
+        }
+        return succ;
+
+    }
+    rawMessage* getMessage(bool& succ){
+        int tries = 0;
+        rawMessage* res = NULL;
+        while(tries < Processor::_maxTry&& !succ){
+            succ = this->_inque.try_remove(res);
+            tries ++;
+        }
+        return res;
+    }
+    rawMessage*    Barrrior(rawMessage*);
+private:
+    void init();
+private:
+    lockFreeQueue<rawMessage*>                  _inque;    // message received from other processes
+    lockFreeQueue<rawMessage*>                  _outque;  // message ready for sent
+    static const int                            _maxTry = 1000;
+    std::shared_ptr<messageSender>              _sender;
+    std::shared_ptr<messageReceiver>            _receiver;
+    bool                                        _finished;
+    std::shared_ptr<Parameter>                  _params;
+};
+
+#endif // PROCESSOR_H

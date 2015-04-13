@@ -1,0 +1,66 @@
+----------------------------------------
+Begin PBS Prologue Sat Apr 11 11:38:35 EDT 2015 1428766715
+Job ID:		17873.xcat
+Username:	swu
+Group:		swu
+Nodes:		n14 n15 n31 n32
+End PBS Prologue Sat Apr 11 11:38:35 EDT 2015 1428766715
+----------------------------------------
+INFO: job started on Sat Apr 11 11:38:35 EDT 2015
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread mode
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+INFO: job finished on Sat Apr 11 11:38:37 EDT 2015
+----------------------------------------
+Begin PBS Epilogue Sat Apr 11 11:38:42 EDT 2015 1428766722
+Job ID:		17873.xcat
+Username:	swu
+Group:		swu
+Job Name:	assembly_bench
+Session:	24307
+Limits:		ncpus=1,neednodes=4:ppn=10,nodes=4:ppn=10,walltime=01:00:00
+Resources:	cput=00:00:03,mem=2816kb,vmem=59308kb,walltime=00:00:02
+Queue:		short
+Account:		
+Nodes:	n14 n15 n31 n32
+Killing leftovers...
+
+End PBS Epilogue Sat Apr 11 11:38:42 EDT 2015 1428766722
+----------------------------------------

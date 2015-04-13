@@ -1,0 +1,28 @@
+----------------------------------------
+Begin PBS Prologue Sat Apr 11 12:13:22 EDT 2015 1428768802
+Job ID:		17889.xcat
+Username:	swu
+Group:		swu
+Nodes:		n3 n4 n5 n6
+End PBS Prologue Sat Apr 11 12:13:22 EDT 2015 1428768802
+----------------------------------------
+/var/spool/torque/mom_priv/jobs/17889.xcat.SC: line 18: cd: /home/swu/assembly_bench_single: No such file or directory
+INFO: job started on Sat Apr 11 12:13:22 EDT 2015
+/var/spool/torque/mom_priv/jobs/17889.xcat.SC: line 24: /home/swu/assembly_bench_single/test/res/test.out.o17889: No such file or directory
+INFO: job finished on Sat Apr 11 12:13:22 EDT 2015
+----------------------------------------
+Begin PBS Epilogue Sat Apr 11 12:13:27 EDT 2015 1428768807
+Job ID:		17889.xcat
+Username:	swu
+Group:		swu
+Job Name:	assembly_bench
+Session:	21719
+Limits:		ncpus=1,neednodes=4:ppn=16,nodes=4:ppn=16,walltime=01:00:00
+Resources:	cput=00:00:00,mem=2808kb,vmem=59308kb,walltime=00:00:00
+Queue:		short
+Account:		
+Nodes:	n3 n4 n5 n6
+Killing leftovers...
+
+End PBS Epilogue Sat Apr 11 12:13:27 EDT 2015 1428768807
+----------------------------------------

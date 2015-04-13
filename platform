@@ -1,0 +1,13 @@
+CC	= mpic++
+CFLAGS	= -std=c++11 -fPIC -w 
+PROG	= run
+
+
+# command
+
+RM	=rm
+CP	=cp
+CD	=cd
+MV	=mv
+
+	

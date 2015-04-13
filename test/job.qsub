@@ -1,0 +1,26 @@
+#PBS -l nodes=4:ppn=1
+#PBS -l walltime=1:00:00
+#PBS -N assembly_bench
+#PBS -j oe
+#PBS -q short
+
+WKDIR="${HOME}/assembly_bench_hybrid_2"
+JOBID=`echo "${PBS_JOBID}" | cut -f1 -d '.'`
+PROG=${WKDIR}/run
+OTFL=${WKDIR}/test/res/test.out.o${JOBID}
+
+# number of processes
+NP=4
+prefixlen=3
+klen=21
+mode=1 #nonblocking
+#mode=0 #blocking
+cd ${WKDIR}
+
+#mpiexec ./delete_trash.sh 2>/dev/null
+#sleep 2
+
+echo "INFO: job started on `date`"
+mpiexec -np ${NP} ${PROG} ${prefixlen} ${klen} ${mode} 2>&1 > ${OTFL}
+#mpiexec --prefix=/usr/local/pkg/openmpi/ -np ${NP} ${PROG} ${prefixlen} ${klen} 2>&1 > ${OTFL}
+echo "INFO: job finished on `date`"

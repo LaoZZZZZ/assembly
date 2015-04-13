@@ -1,0 +1,41 @@
+1 to 1 from queue
+1sent to 2
+1sent to 3
+1 to 2 from queue
+5sent to 1
+1sent to 4
+7sent to 1
+6sent to 1
+15sent to 1
+2sent to 1
+3sent to 1
+13sent to 1
+1 to 4 from queue
+3sent to 2
+5 to 1 from queue
+2sent to 3
+4sent to 1
+1sent to 5
+2 to 2 from queue
+3 to 3 from queue
+1 to 3 from queue
+1 to 5 from queue
+8sent to 1
+2sent to 4
+3sent to 4
+1 to 6 from queue
+2sent to 5
+5sent to 2
+5sent to 3
+1sent to 6
+9sent to 1
+8sent to 2
+3sent to 5
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 9454 RUNNING AT n8
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================

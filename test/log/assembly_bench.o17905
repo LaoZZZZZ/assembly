@@ -1,0 +1,30 @@
+----------------------------------------
+Begin PBS Prologue Sun Apr 12 07:03:52 EDT 2015 1428836632
+Job ID:		17905.xcat
+Username:	swu
+Group:		swu
+Nodes:		n30
+End PBS Prologue Sun Apr 12 07:03:52 EDT 2015 1428836632
+----------------------------------------
+INFO: job started on Sun Apr 12 07:03:52 EDT 2015
+The MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread modeThe MPI platform does not support multiple thread. it only supports single thread mode
+
+
+
+INFO: job finished on Sun Apr 12 07:03:57 EDT 2015
+----------------------------------------
+Begin PBS Epilogue Sun Apr 12 07:04:02 EDT 2015 1428836642
+Job ID:		17905.xcat
+Username:	swu
+Group:		swu
+Job Name:	assembly_bench
+Session:	23335
+Limits:		ncpus=1,neednodes=4:ppn=1,nodes=4:ppn=1,walltime=01:00:00
+Resources:	cput=00:00:16,mem=0kb,vmem=0kb,walltime=00:00:05
+Queue:		short
+Account:		
+Nodes:	n30
+Killing leftovers...
+
+End PBS Epilogue Sun Apr 12 07:04:02 EDT 2015 1428836642
+----------------------------------------
