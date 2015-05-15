@@ -20,7 +20,7 @@ void messageGenerator::run(){
                 msg<<i<<',';
             }
 	    */
-	    msg<<string(1000000,'c');
+	    msg<<string(10000000,'c');
             msg.flush();
             string m(msg.str());
             rawMessage* tmp = new rawMessage(me,i,m,INTERNAL_TAG);

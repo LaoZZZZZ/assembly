@@ -47,13 +47,7 @@ int main(int argc,char** argv)
     if(argc >= 3)
         gp->setKmerLen(atoi(argv[2]));
     if(argc >= 4){
-	comMode m = static_cast<comMode>(atoi(argv[3]));
-	if(numThread == 1 && m == BLOCKING){
-		if(rank == 0)
-			std::cerr<<"The MPI platform only support single thread mode, blocking communication might cause deadlock! changed to nonblocking"<<endl;
-		gp->setCommunicationMode(NONBLOCKING);
-	}else
-        	gp->setCommunicationMode(m);
+        gp->setCommunicationMode(static_cast<comMode>(atoi(argv[3])));
     }
     gp->setCommunicationThread(numThread);
     Parameter* p = new Parameter(ap,gp);
@@ -72,7 +66,6 @@ int main(int argc,char** argv)
     if(th)
         delete th;
     th = NULL;
-   
     MPI_Finalize();
     return 0;
 }

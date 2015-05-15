@@ -6,6 +6,10 @@ Processor::Processor(std::shared_ptr<Parameter> params):mtpiThread(params->globa
 {
     this->init();
 }
+Processor::Processor(Processor* me):mtpiThread(me->params()->globalParameters()->comGroup()),_params(me->params())
+{
+    this->init();
+}
 void Processor::init(){
     if(!Processor::_network.get())
         Processor::initGlobal(this->_params);

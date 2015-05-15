@@ -10,8 +10,7 @@ public:
     typedef std::unordered_map<int,int> LookupTable;
 public:
     Processor(std::shared_ptr<Parameter> params);
-    Processor(Processor* me):Processor(me->params()){
-    }
+    Processor(Processor* me);
     virtual ~Processor(){
 
     }

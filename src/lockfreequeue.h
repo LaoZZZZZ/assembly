@@ -75,5 +75,5 @@ private:
         return this->_que.push(e);
     }
 private:
-	boost::lockfree::queue<T, boost::lockfree::fixed_sized<true> >	    _que;
+	boost::lockfree::queue<T, boost::lockfree::fixed_sized<false> >	    _que;
 };

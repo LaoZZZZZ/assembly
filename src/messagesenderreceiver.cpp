@@ -9,7 +9,7 @@ messageSenderReceiver::messageSenderReceiver(lockFreeQueue<rawMessage*>& inque,
                                             _finished(finish),
                                             _maxTry(maxTry),_sendMode(m)
 {
-    this->_bufferCap = 1000000000;
+    this->_bufferCap = 50000000;
     assert(!_finished);
 }
 
@@ -42,7 +42,7 @@ void messageSenderReceiver::run(){
 
             if(this->_buffered >= this->_bufferCap){
                 int flag = 0;
-//		cout<<this->getRank()<<" the sending buffer is full"<<endl;
+		cout<<this->getRank()<<" the sending buffer is full"<<endl;
                 size_t sz = this->_bufferedReq.size();
                 assert(sz == this->_waitMessages.size());
                 MPI_Request* a = new MPI_Request[sz];
@@ -61,7 +61,7 @@ void messageSenderReceiver::run(){
                     this->_waitMessages.clear();
                     this->_bufferedReq.clear();
                     this->_buffered = 0;
-//		    cout<<this->getRank()<<" cleaned the sending buffer"<<endl;
+		    cout<<this->getRank()<<" cleaned the sending buffer"<<endl;
                 }
             }else{
                 tmp = NULL;

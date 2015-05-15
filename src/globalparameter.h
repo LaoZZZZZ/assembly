@@ -36,7 +36,8 @@ private:
         _prefixLen = 2;
         _readBlocks = 1800;
         _group = MPI_COMM_WORLD;
-        _queuesize = 65534;
+//        _queuesize = 65534;
+        _queuesize = 1000000;
         _maxTry = 100;
         _comThread = 1;
         _communicationMode = BLOCKING;
